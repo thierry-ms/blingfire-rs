@@ -9,6 +9,14 @@ pub enum Error {
     #[snafu(display("Source buffer is too large (capacity > {}).", max_text_length))]
     SourceTooLarge { max_text_length: usize },
 
+    /// Load model failed.
+    #[snafu(display("Load model failed."))]
+    LoadModelError,
+
+    /// Free model failed.
+    #[snafu(display("Free model failed."))]
+    FreeModelError,
+
     /// An unknown error caused the tokenizer to fail (the C++ function returned -1).
     #[snafu(display(
         "An unknown error caused the tokenizer to fail (the C++ function returned -1)."
