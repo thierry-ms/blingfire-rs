@@ -2,7 +2,4 @@
 **/*.rs.bk
 Cargo.lock
 
-/blingfire/data/blingfire_output_rs.utf8
-/blingfire/data/blingfire_output_rs_in_par.utf8
-
 /.cargo

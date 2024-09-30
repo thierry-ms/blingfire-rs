@@ -1,3 +1,7 @@
 /target
 **/*.rs.bk
 Cargo.lock
+
+
+/data/blingfire_output_rs.utf8
+/data/blingfire_output_rs_in_par.utf8
